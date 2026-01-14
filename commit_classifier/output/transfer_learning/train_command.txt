@@ -1,0 +1,1 @@
+python train_5class.py  --do_test --do_train

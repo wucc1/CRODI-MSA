@@ -1,0 +1,1 @@
+python commit_classifier/finetune.py  --do_train

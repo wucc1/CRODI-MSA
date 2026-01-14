@@ -1,0 +1,1 @@
+python /root/COLARE/COLARE-op5-toF1/commit_classifier/finetune.py  --do_train

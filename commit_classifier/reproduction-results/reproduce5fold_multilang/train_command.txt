@@ -1,0 +1,1 @@
+python launch.py --name reproduce5fold_multilang --model CCModel --device gpu --num_workers 3 --seed 123 --grad_acc 2 --batch_size 3 --lr 3.5e-05 --max_epochs 9 --patience 9 --data_dir ../dataset/multi-lang-exp/ --save_dir reproduction-results --dataset CommitDataset --file_num_limit 4 --hunk_num_limit 3 --use_roberta False --do_test --enable_cv --enable_checkpoint --do_train
