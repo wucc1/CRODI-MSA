@@ -1,3 +1,4 @@
 __pycache__/
 **/__pycache__/
 *.pt
+# Large files to skip pushing to GitHub\ndataset/preTrain-myData/converted_dataset.csv\ndiff_cache.json\ndiff_cache_10class.json
