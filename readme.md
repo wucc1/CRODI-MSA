@@ -1,6 +1,6 @@
-# CRODI-MSA: Commit Classification via Fine-grained Context-aware Representation of Code Changes
+# CRODI-MSA: Cross-service Defect Identification in Microservice Architectures from Fine-Grained Context-Aware Code Changes
 
-CRODI-MSA is specifically designed for commit maintenance activity classification and has demonstrated outstanding performance, surpassing the state-of-the-art by 7.24% in accuracy and 7.35% in macro F1 score. CRODI-MSA's approach involves presenting and comparing code changes at the hunk level, incorporating fine-grained features based on the categories of modified files, and aggregating this with the representation of commit messages.
+CRODI-MSA is specifically designed for cross-service defect classification in microservices and demonstrates superior performance, achieving accuracy and macro F1 scores that are 7.24% and 7.35% higher, respectively, than the best existing methods. CRODI-MSA's approach involves representing and comparing code changes at the code block level, incorporating fine-grained features based on modified file categories, and finally integrating this information with representations of commit messages.
 
 ## Environment
 
