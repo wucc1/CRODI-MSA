@@ -165,7 +165,7 @@ import pandas as pd
 import json
 
 # 添加项目根目录到Python路径
-sys.path.insert(0, '/root/COLARE/COLARE-op6-test')
+sys.path.insert(0, '/root/CRODI-MSA/CRODI-MSA-op6-test')
 
 from dashboard.classifier.core.git_client import RepoClient
 from dashboard.classifier.core.extractor import process_whole_diff

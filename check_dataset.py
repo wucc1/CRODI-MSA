@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 # 读取数据集
-dataset_path = '/root/COLARE/COLARE-op6-test/dataset/preTrain-myData/converted_dataset.csv'
+dataset_path = '/root/CRODI-MSA/CRODI-MSA-op6-test/dataset/preTrain-myData/converted_dataset.csv'
 df = pd.read_csv(dataset_path)
 
 # 获取最后一列名称

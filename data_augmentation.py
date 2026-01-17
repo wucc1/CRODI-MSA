@@ -9,7 +9,7 @@ import json
 import random
 
 # 配置参数
-INPUT_FILE = '/root/COLARE/COLARE-op6-test/dataset/preTrain-myData/converted_dataset.csv'
+INPUT_FILE = '/root/CRODI-MSA/CRODI-MSA-op6-test/dataset/preTrain-myData/converted_dataset.csv'
 TARGET_COUNT = 2000
 
 # 读取现有数据集

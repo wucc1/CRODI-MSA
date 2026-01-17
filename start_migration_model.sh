@@ -5,7 +5,7 @@
 
 echo "===== 启动迁移模型 ====="
 echo "正在进入项目目录..."
-cd /root/COLARE/COLARE-op5-toF1/commit_classifier
+cd /root/CRODI-MSA/CRODI-MSA-op5-toF1/commit_classifier
 
 echo "正在执行迁移学习脚本..."
 python finetune.py

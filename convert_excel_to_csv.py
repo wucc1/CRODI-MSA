@@ -325,8 +325,8 @@ def convert_excel_to_csv(excel_path, output_path, max_per_category=400):
 
 if __name__ == "__main__":
     # 输入输出文件路径
-    excel_path = '/root/COLARE/COLARE-op6-test/dataset/preTrain-myData/Mydata_5.xlsx'
-    output_path = '/root/COLARE/COLARE-op6-test/dataset/preTrain-myData/converted_dataset.csv'
+    excel_path = '/root/CRODI-MSA/CRODI-MSA-op6-test/dataset/preTrain-myData/Mydata_5.xlsx'
+    output_path = '/root/CRODI-MSA/CRODI-MSA-op6-test/dataset/preTrain-myData/converted_dataset.csv'
     
     # 转换数据，每个类别保留400条数据
     convert_excel_to_csv(excel_path, output_path, max_per_category=400)

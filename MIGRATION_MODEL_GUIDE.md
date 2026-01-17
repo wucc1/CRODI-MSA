@@ -21,7 +21,7 @@
 最简单的启动方式是直接运行项目中的`finetune.py`脚本：
 
 ```bash
-cd /root/COLARE/COLARE-op5-toF1/commit_classifier
+cd /root/CRODI-MSA/CRODI-MSA-op5-toF1/commit_classifier
 python finetune.py
 ```
 
@@ -30,7 +30,7 @@ python finetune.py
 项目根目录下提供了一个启动脚本`start_migration_model.sh`，可以直接运行：
 
 ```bash
-cd /root/COLARE/COLARE-op5-toF1
+cd /root/CRODI-MSA/CRODI-MSA-op5-toF1
 chmod +x start_migration_model.sh
 ./start_migration_model.sh
 ```
@@ -91,7 +91,7 @@ pretrained_path = os.path.join(os.path.dirname(__file__), "reproduction-results/
 如果出现"Pre-trained model not found"错误，请检查预训练模型路径是否正确：
 
 ```bash
-ls -la /root/COLARE/COLARE-op5-toF1/commit_classifier/reproduction-results/reproduce5fold_java/
+ls -la /root/CRODI-MSA/CRODI-MSA-op5-toF1/commit_classifier/reproduction-results/reproduce5fold_java/
 ```
 
 确保目录中存在`checkpoint.pt`文件。
@@ -137,7 +137,7 @@ config.data_dir = "your/dataset/path/"
 迁移模型训练完成后，可以使用`test_model.py`脚本进行评估：
 
 ```bash
-cd /root/COLARE/COLARE-op5-toF1/commit_classifier
+cd /root/CRODI-MSA/CRODI-MSA-op5-toF1/commit_classifier
 python trainer/test_model.py --name finetune_1793 --model CCModel --device gpu --data_dir ../dataset/1793/ --save_dir ../output/
 ```
 
